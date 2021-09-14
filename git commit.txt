@@ -1,0 +1,112 @@
+
+gulshan@DESKTOP-9LQEM4R MINGW64 /e/DjangoWorks/Day15 (main)
+$ git add -A
+
+gulshan@DESKTOP-9LQEM4R MINGW64 /e/DjangoWorks/Day15 (main)
+$ git commit -m "Create Employee"
+[main ebe98e9] Create Employee
+ 92 files changed, 466 insertions(+), 474 deletions(-)
+ create mode 100644 cmd.txt
+ delete mode 100644 demoproject/demoproject/__pycache__/__init__.cpython-39.pyc
+ delete mode 100644 demoproject/demoproject/__pycache__/settings.cpython-39.pyc
+ delete mode 100644 demoproject/demoproject/__pycache__/urls.cpython-39.pyc
+ delete mode 100644 demoproject/demoproject/__pycache__/wsgi.cpython-39.pyc
+ delete mode 100644 demoproject/makedata.py
+ delete mode 100644 demoproject/static/image/logo.png
+ delete mode 100644 demoproject/studentapp/__pycache__/__init__.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/__pycache__/admin.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/__pycache__/apps.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/__pycache__/forms.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/__pycache__/models.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/__pycache__/urls.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/__pycache__/views.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/admin.py
+ delete mode 100644 demoproject/studentapp/forms.py
+ delete mode 100644 demoproject/studentapp/migrations/0001_initial.py
+ delete mode 100644 demoproject/studentapp/migrations/0002_auto_20210821_2119.py
+ delete mode 100644 demoproject/studentapp/migrations/0003_student_phone.py
+ delete mode 100644 demoproject/studentapp/migrations/__pycache__/0001_initial.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/migrations/__pycache__/0002_auto_20210821_2119.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/migrations/__pycache__/0003_student_phone.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/migrations/__pycache__/__init__.cpython-39.pyc
+ delete mode 100644 demoproject/studentapp/models.py
+ delete mode 100644 demoproject/studentapp/urls.py
+ delete mode 100644 demoproject/studentapp/views.py
+ delete mode 100644 demoproject/templates/home.html
+ delete mode 100644 demoproject/templates/registration/register.html
+ delete mode 100644 demoproject/templates/slideshow.html
+ delete mode 100644 demoproject/templates/studentapp/create.html
+ delete mode 100644 demoproject/templates/studentapp/index.html
+ rename {demoproject => empPrj}/db.sqlite3 (81%)
+ rename {demoproject/demoproject => empPrj/empApp}/__init__.py (100%)
+ create mode 100644 empPrj/empApp/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 empPrj/empApp/__pycache__/admin.cpython-39.pyc
+ create mode 100644 empPrj/empApp/__pycache__/apps.cpython-39.pyc
+ create mode 100644 empPrj/empApp/__pycache__/forms.cpython-39.pyc
+ create mode 100644 empPrj/empApp/__pycache__/models.cpython-39.pyc
+ create mode 100644 empPrj/empApp/__pycache__/urls.cpython-39.pyc
+ create mode 100644 empPrj/empApp/__pycache__/views.cpython-39.pyc
+ create mode 100644 empPrj/empApp/admin.py
+ rename {demoproject/studentapp => empPrj/empApp}/apps.py (61%)
+ create mode 100644 empPrj/empApp/forms.py
+ create mode 100644 empPrj/empApp/migrations/0001_initial.py
+ create mode 100644 empPrj/empApp/migrations/0002_auto_20210913_1517.py
+ create mode 100644 empPrj/empApp/migrations/0003_auto_20210913_1620.py
+ rename {demoproject/studentapp => empPrj/empApp/migrations}/__init__.py (100%)
+ create mode 100644 empPrj/empApp/migrations/__pycache__/0001_initial.cpython-39.pyc
+ create mode 100644 empPrj/empApp/migrations/__pycache__/0002_auto_20210913_1517.cpython-39.pyc
+ create mode 100644 empPrj/empApp/migrations/__pycache__/0003_auto_20210913_1620.cpython-39.pyc
+ create mode 100644 empPrj/empApp/migrations/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 empPrj/empApp/models.py
+ rename {demoproject/studentapp => empPrj/empApp}/tests.py (100%)
+ create mode 100644 empPrj/empApp/urls.py
+ create mode 100644 empPrj/empApp/views.py
+ rename {demoproject/studentapp/migrations => empPrj/empPrj}/__init__.py (100%)
+ create mode 100644 empPrj/empPrj/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 empPrj/empPrj/__pycache__/settings.cpython-39.pyc
+ create mode 100644 empPrj/empPrj/__pycache__/urls.cpython-39.pyc
+ create mode 100644 empPrj/empPrj/__pycache__/wsgi.cpython-39.pyc
+ rename {demoproject/demoproject => empPrj/empPrj}/asgi.py (72%)
+ rename {demoproject/demoproject => empPrj/empPrj}/settings.py (86%)
+ create mode 100644 empPrj/empPrj/tasklist.txt
+ rename {demoproject/demoproject => empPrj/empPrj}/urls.py (57%)
+ rename {demoproject/demoproject => empPrj/empPrj}/wsgi.py (72%)
+ rename {demoproject => empPrj}/manage.py (88%)
+ rename {demoproject/static/image => empPrj/media/myimage}/img1.jpg (100%)
+ create mode 100644 empPrj/media/myimage/img1_atbECET.jpg
+ rename {demoproject/static/image => empPrj/media/myimage}/img2.jpg (100%)
+ create mode 100644 empPrj/media/myimage/img2_I0HUn0t.jpg
+ rename {demoproject/static/image => empPrj/media/myimage}/img3.jpg (100%)
+ rename {demoproject/static/image => empPrj/media/myimage}/img4.jpg (100%)
+ create mode 100644 empPrj/media/myimage/img4_6PUoYT8.jpg
+ rename {demoproject/static/image => empPrj/media/myimage}/img5.jpg (100%)
+ create mode 100644 empPrj/media/myimage/img5_RVqNyiy.jpg
+ rename {demoproject/static/image => empPrj/static/img}/android-chrome-192x192.png (100%)
+ rename {demoproject/static/image => empPrj/static/img}/android-chrome-512x512.png (100%)
+ rename {demoproject/static/image => empPrj/static/img}/apple-touch-icon.png (100%)
+ rename {demoproject/static/image => empPrj/static/img}/favicon-16x16.png (100%)
+ rename {demoproject/static/image => empPrj/static/img}/favicon-32x32.png (100%)
+ rename {demoproject/static/image => empPrj/static/img}/favicon.ico (100%)
+ create mode 100644 empPrj/static/img/img1.jpg
+ create mode 100644 empPrj/static/img/img2.jpg
+ create mode 100644 empPrj/static/img/img3.jpg
+ create mode 100644 empPrj/static/img/img4.jpg
+ create mode 100644 empPrj/static/img/img5.jpg
+ create mode 100644 empPrj/static/img/logo.png
+ create mode 100644 empPrj/static/js/myscript.js
+ rename {demoproject => empPrj}/templates/base.html (51%)
+ create mode 100644 empPrj/templates/emp/empForm.html
+ create mode 100644 empPrj/templates/emp/list.html
+ create mode 100644 empPrj/templates/home.html
+
+gulshan@DESKTOP-9LQEM4R MINGW64 /e/DjangoWorks/Day15 (main)
+$ git push origin main
+Enumerating objects: 68, done.
+Counting objects: 100% (68/68), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (64/64), done.
+Writing objects: 100% (67/67), 505.16 KiB | 9.02 MiB/s, done.
+Total 67 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/gulshan25/Django_StudentApp.git
+   f2a8f35..ebe98e9  main -> main
